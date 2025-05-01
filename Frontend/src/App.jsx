@@ -14,7 +14,7 @@ import Thankyou from "./Pages/Thankyou";
 import ProtectedRoute from "./Route/ProtectedRoute";
 
 import { useState, useEffect } from "react";
-import Order from "./Components/Order.Jsx";
+import Order from "./Components/Order";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
