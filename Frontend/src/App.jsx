@@ -10,7 +10,7 @@ import Cource from "./Components/Cource";
 import Admin from "../src/Admin/Admin";
 import ThankYouSignUp from "../src/Pages/ThankYouSignUp";
 import Buy from "./Components/Buy";
-import Thankyou from "./Pages/ThankYou";
+import Thankyou from "./Pages/Thankyou";
 import ProtectedRoute from "./Route/ProtectedRoute";
 
 import { useState, useEffect } from "react";
