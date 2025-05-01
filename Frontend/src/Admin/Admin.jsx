@@ -54,7 +54,7 @@ const Admin = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4001/api/upload', formdata);
+      const response = await axios.post('https://bookstore-mern-jrsz.onrender.com/api/upload', formdata);
       console.log(response.data);
       toast.success('Book uploaded successfully!');
 

@@ -26,7 +26,7 @@ const Login = ({ setIsLoggedIn }) => {
     if (email && password && re_password) {
       if (password === re_password) {
         try {
-          const response = await axios.post("http://localhost:4001/api/Login", {
+          const response = await axios.post("https://bookstore-mern-jrsz.onrender.com/api/Login", {
             email,
             password
           });

@@ -10,7 +10,7 @@ const Cource = () => {
     useEffect(() => {
         const getBook = async () => {
             try {
-                const res = await axios.get("http://localhost:4001/api/Books");
+                const res = await axios.get("https://bookstore-mern-jrsz.onrender.com/api/Books");
                 console.log(res.data)
                 setBook(res.data)
             } catch (error) {

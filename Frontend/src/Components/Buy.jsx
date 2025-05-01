@@ -30,7 +30,7 @@ const Buy = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post("http://localhost:4001/api/OrderBuy", formData, {
+      const response = await axios.post("https://bookstore-mern-jrsz.onrender.com/api/OrderBuy", formData, {
         headers: { "Content-Type": "application/json" },
       });
   

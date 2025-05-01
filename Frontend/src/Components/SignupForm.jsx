@@ -31,7 +31,7 @@ const SignupForm = () => {
     if (firstname && lastname && email && phone && password && re_password) {
       if (password === re_password) {
         try {
-          const response = await axios.post("http://localhost:4001/api/SignUp", {
+          const response = await axios.post("https://bookstore-mern-jrsz.onrender.com/api/SignUp", {
             firstname,
             lastname,
             email,

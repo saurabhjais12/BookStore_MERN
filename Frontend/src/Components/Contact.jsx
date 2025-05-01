@@ -27,7 +27,7 @@ function Contact() {
 
     try {
       // Send the form data as JSON to the server
-      const response = await axios.post('http://localhost:4001/api/contact', formdata, {
+      const response = await axios.post('https://bookstore-mern-jrsz.onrender.com/api/contact', formdata, {
         headers: {
           'Content-Type': 'application/json', 
         },
