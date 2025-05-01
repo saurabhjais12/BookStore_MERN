@@ -36,8 +36,12 @@ cloudinary.config({
 // const __dirname = path.dirname(__filename);
 
 // Middleware
+const coresOption ={
+  origin:"https://bookstore-mern-jrsz.onrender.com",
+  Credentials:true
+}
 app.use(cors());
-app.use(express.json());
+app.use(express.json(coresOption));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
